@@ -1,0 +1,20 @@
+#formulaire{
+    font-size: small;
+    width: 30%;
+    height: 70%;
+    background: rgba(104, 97, 19, 0.719);
+    text-align: center;
+
+}
+
+#log{
+    font-size: small;
+    text-align: center;
+    width: 30%;
+    height: 30%;
+    background: rgba(150, 139, 16, 0.753);  
+    
+}
+p{
+    font-size:small;
+}
