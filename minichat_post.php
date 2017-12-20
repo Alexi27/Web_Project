@@ -8,7 +8,7 @@ catch(Exception $e)
 {
         die('Erreur : '.$e->getMessage());
 }
-
+//on compare si le peseudo est dans la db
 // Insertion du message à l'aide d'une requête préparée
 $req = $bdd->prepare('INSERT INTO minichat (dateetheure, pseudo, message) VALUES (CURRENT_TIMESTAMP(), ?, ?)');
 $req->execute(array($_POST['pseudo'], $_POST['message']));
