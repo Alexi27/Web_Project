@@ -4,12 +4,7 @@
         <meta charset="utf-8" />
         <title>Mini-chat</title>
     </head>
-    <style>
-    form
-    {
-        text-align:center;
-    }
-    </style>
+
     <body>
     
     <form action="minichat_post.php" method="post">
@@ -23,14 +18,9 @@
 
 <?php
 // Connexion à la base de données
-try
-{
 	$bdd = new PDO('mysql:host=localhost;dbname=projetweb;charset=utf8', 'Alexi27', 'Alexi2427');
-}
-catch(Exception $e)
-{
-        die('Erreur : '.$e->getMessage());
-}
+
+
 
 // Récupération des 10 derniers messages
 $reponse = $bdd->query('SELECT dateetheure, pseudo, message FROM minichat ORDER BY ID DESC LIMIT 0, 10');
@@ -40,8 +30,8 @@ while ($donnees = $reponse->fetch())
 {
 	echo '<p>' . htmlspecialchars($donnees['dateetheure']) .'<strong>' . htmlspecialchars($donnees['pseudo']) . '</strong> : ' . htmlspecialchars($donnees['message']) . '</p>';
 }
+$reponse->closeCursor(); // on libère le curseur pour la prochaine requête
 
-$reponse->closeCursor();
 
 ?>
     </body>

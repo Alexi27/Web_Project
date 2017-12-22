@@ -1,3 +1,10 @@
+
+form
+{
+    text-align:center;
+    
+}
+
 #formulaire{
     font-size: small;
     width: 30%;
@@ -11,10 +18,15 @@
     font-size: small;
     text-align: center;
     width: 30%;
-    height: 30%;
-    background: rgba(150, 139, 16, 0.753);  
+    height: 40%;
+    background: rgba(172, 159, 21, 0.753);  
     
 }
 p{
     font-size:small;
-}
+} 
+body{
+    text-align:center; 
+    background-attachment:scroll;
+    }
+    
