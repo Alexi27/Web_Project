@@ -1,4 +1,7 @@
 <?php
+session_start(); // On démarre la session 
+
+<!DOCTYPE html>
 // Connexion à la base de données
 try
 {

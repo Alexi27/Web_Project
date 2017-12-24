@@ -1,4 +1,6 @@
-
+<?php
+session_start(); // On démarre la session
+?>
 <!DOCTYPE html>
 <html>
 
