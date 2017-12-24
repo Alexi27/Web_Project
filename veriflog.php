@@ -1,8 +1,9 @@
 <?php
 session_start(); // On démarre la session 
-
+?>
 <!DOCTYPE html>
-// Connexion à la base de données
+<! Connexion à la base de données
+<?php
 try
 {
     $bdd = new PDO('mysql:host=localhost;dbname=projetweb;charset=utf8', 'Alexi27', 'Alexi2427');
@@ -35,7 +36,9 @@ if($response == false) { // si utilisateur non trouvé dans la Bd
 if($response['password'] != $password) { // Si MDP faux
     die('Mot de passe incorrecte');
 }
+$_SESSION['pseudo'] = $username;
 
-echo "connecter";
+// Redirection vers la page minichat
+header('Location: index.php');
 
 ?>
