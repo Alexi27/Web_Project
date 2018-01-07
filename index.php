@@ -27,7 +27,14 @@ session_start(); // On démarre la session
                 background-size: cover;
                 background-color: 
             }
-
+.bandetete{
+    float: center;
+    width:100%;
+    height: 5%;
+    text-align: center;
+    background-color: grey;
+    font-size:16px;
+}
             .dropbtn {
    
     color: white;
@@ -72,8 +79,8 @@ session_start(); // On démarre la session
 .structure1{
     margin:auto;
     float:center;
-    height:800px;
-    width:70%;
+    height:600px;
+    width:100%;
     background-color:black;
     
 }
@@ -140,16 +147,16 @@ session_start(); // On démarre la session
             <strong>#Productible.rn #Design #eko</strong>
         </div>
         <div class="parallax"></div>
-
+        <div class="bandetete"><strong>Work</strong></div>
         <div class="structure1">
             <table>
                 <tr>
                     <td>
-                        <img class="image1" src="https://image.freepik.com/free-vector/colorful-ornamental-abstract-design_23-2147501644.jpg" width="400"
+                        <img class="image1" src="C:\wamp64\www\Projet_Web\chaise\DSC1357.png" width="400"
                             height="300" alt="Texte " title="Texte " />
                     </td>
                     <td>
-                        <img class="image2" src="http://img.chefdentreprise.com/Img/BREVE/2014/1/232881/design-levier-competitivite-sous-exploite-par-PME-F.jpg"
+                        <img class="image2" src="C:\wamp64\www\Projet_Web\photocouteaux\DSC_1344.jpg"
                             width="300" height="300" alt="Texte " title="Texte ">
                     </td>
                     <td>
@@ -165,7 +172,30 @@ session_start(); // On démarre la session
             </table>
         </div>
 
-        <div class="parallax">
+        <div class="parallax"></div>
+        <div class="bandetete"><strong>About</strong></div>
+        <div class="structure1">
+            <table>
+                <tr>
+                    <td>
+                        <img class="image1" src="C:\wamp64\www\Projet_Web\chaise\DSC1357.png" width="400"
+                            height="300" alt="Texte " title="Texte " />
+                    </td>
+                    <td>
+                        <img class="image2" src="C:\wamp64\www\Projet_Web\photocouteaux\DSC_1344.jpg"
+                            width="300" height="300" alt="Texte " title="Texte ">
+                    </td>
+                    <td>
+                        <img src="">
+                    </td>
+                    <td>
+                        <img src="">
+                    </td>
+                    <td>
+                        <img src="">
+                    </td>
+                </tr>
+            </table>
         </div>
 
         <a href="./formulaire.html">inscription</a>
