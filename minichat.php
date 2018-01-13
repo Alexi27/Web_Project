@@ -7,38 +7,9 @@ session_start(); // On démarre la session
 
     <head>
         <meta charset="utf-8" />
+        <link rel="stylesheet" href="minichat.css">
         <title>Mini-chat</title>
-        <style>
-            form {
-                text-align: center;
-            }
-
-            .input {
-                float: middle;
-            }
-
-            .tablemessage {
-                width: 100%;
-                float: middle;
-                text-align: center;
-            }
-
-            .messageancien {
-                width: 50%;
-                float: center;
-                text-align: middle;
-            }
-            input, textarea{
-                width: 30%;
-               
-                font-size: 17px;
-            }
-            .espace:after{
-                content: "";
-                display: table;
-                clear: both;
-            }
-        </style>
+       
     </head>
 
     <body>

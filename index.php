@@ -1,5 +1,3 @@
-</html>
-
 <?php
 session_start(); // On démarre la session
 ?>
@@ -25,71 +23,74 @@ session_start(); // On démarre la session
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
-                background-color: 
+                background-color:
             }
-.bandetete{
-    float: center;
-    width:100%;
-    height: 5%;
-    text-align: center;
-    background-color: grey;
-    font-size:16px;
-}
+
+            .bandetete {
+                float: center;
+                width: 100%;
+                height: 5%;
+                text-align: center;
+                background-color: grey;
+                font-size: 16px;
+            }
+
             .dropbtn {
-   
-    color: white;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
+                color: white;
+                font-size: 16px;
+                border: none;
+                cursor: pointer;
+            }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    right: 0;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                right: 0;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+            }
 
-.dropdown-content a:hover {
-    background-color: #f1f1f1
-    }
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+            .dropdown-content a:hover {
+                background-color: #f1f1f1
+            }
 
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
-.structure1{
-    margin:auto;
-    float:center;
-    height:600px;
-    width:100%;
-    background-color:black;
-    
-}
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
 
-#nomtitre {
+            .dropdown:hover .dropbtn {
+                background-color: #3e8e41;
+            }
+
+            .structure1 {
+                margin: auto;
+                float: center;
+                height: 600px;
+                width: 100%;
+                background-color: black;/* rgba(0, 0, 0, 0);*/
+            }
+
+            #nomtitre {
                 margin: auto;
                 text-align: center;
                 vertical-align: middle;
             }
+
             .image2 {
                 -webkit-transform: scale(1);
                 transform: scale(1);
@@ -101,24 +102,35 @@ session_start(); // On démarre la session
                 -webkit-transform: scale(1.3);
                 transform: scale(1.3);
             }
-
             /* Opacité */
 
-            .image1 div {
-                background: #000000;
+            .image1text h4 {
+                padding-top: 10px;
             }
+            
+            .image1text {
+                position: relative;
+                bottom: 100px;
+                background-color: rgba(0,0,0,0.5);
+                color: white;
+                padding-left: 20px;
+                padding-right: 20px;
+                display: block;
+                text-align: center;
 
             .image1:hover {
-                opacity: .5;
+                opacity: .4;
             }
         </style>
     </head>
+
     <body>
-    <div class="dropdown" style="float:right;">
-    <button class="dropbtn">  <img src="http://www.icone-png.com/png/53/53000.png" width="30" height="30">
-</button>
-    <div class="dropdown-content">
-            
+        <div class="dropdown" style="float:right;">
+            <button class="dropbtn">
+                <img src="http://www.icone-png.com/png/53/53000.png" width="30" height="30">
+            </button>
+            <div class="dropdown-content">
+
                 <div>
                     <?php 
                         if(isset($_SESSION['pseudo']))// on verrifie qu'il y a quelque chose dans le pseudo du tableau session  
@@ -145,19 +157,28 @@ session_start(); // On démarre la session
 
         <div class "leshastags">
             <strong>#Productible.rn #Design #eko</strong>
+            <a href="http://www.unitag.io/qreator/generate?setting=%7B%22EYES%22%3A%7B%22EYE_TYPE%22%3A%22Simple%22%7D%2C%22E%22%3A%22M%22%2C%22BODY_TYPE%22%3A0%2C%22LAYOUT%22%3A%7B%22COLORBG%22%3A%22ffffff%22%2C%22COLOR1%22%3A%22000000%22%7D%7D&data=%7B%22TYPE%22%3A%22vcard%22%2C%22DATA%22%3A%7B%22FIRSTNAME%22%3A%22Robin%22%2C%22NAME%22%3A%22Navari%22%2C%22EMAIL%3BINTERNET%22%3A%22navari9203%40outlook.com%22%2C%22EMAIL%3BHOME%3BINTERNET%22%3A%22%22%2C%22TEL%3BCELL%22%3A%220681746320%22%2C%22TEL%3BWORK%22%3A%22%22%2C%22TEL%3BHOME%22%3A%22%22%2C%22TEL%3BHOME%3BFAX%22%3A%22%22%2C%22URL%22%3A%22%22%2C%22TITLE%22%3A%22%22%2C%22ORG%22%3A%22%22%2C%22ADR%22%3A%22%22%2C%22PC%22%3A%22%22%2C%22CITY%22%3A%22%22%2C%22COUNTRY%22%3A%22%22%2C%22NOTE%22%3A%22%22%7D%7D ">
+                <img src="http://www.unitag.io/qreator/generate?setting=%7B%22EYES%22%3A%7B%22EYE_TYPE%22%3A%22Simple%22%7D%2C%22E%22%3A%22M%22%2C%22BODY_TYPE%22%3A0%2C%22LAYOUT%22%3A%7B%22COLORBG%22%3A%22ffffff%22%2C%22COLOR1%22%3A%22000000%22%7D%7D&data=%7B%22TYPE%22%3A%22vcard%22%2C%22DATA%22%3A%7B%22FIRSTNAME%22%3A%22Robin%22%2C%22NAME%22%3A%22Navari%22%2C%22EMAIL%3BINTERNET%22%3A%22navari9203%40outlook.com%22%2C%22EMAIL%3BHOME%3BINTERNET%22%3A%22%22%2C%22TEL%3BCELL%22%3A%220681746320%22%2C%22TEL%3BWORK%22%3A%22%22%2C%22TEL%3BHOME%22%3A%22%22%2C%22TEL%3BHOME%3BFAX%22%3A%22%22%2C%22URL%22%3A%22%22%2C%22TITLE%22%3A%22%22%2C%22ORG%22%3A%22%22%2C%22ADR%22%3A%22%22%2C%22PC%22%3A%22%22%2C%22CITY%22%3A%22%22%2C%22COUNTRY%22%3A%22%22%2C%22NOTE%22%3A%22%22%7D%7D"
+                    alt="QR Code - Robin NAVARI carte de visite"> </a>
         </div>
         <div class="parallax"></div>
-        <div class="bandetete"><strong>Work</strong></div>
+        <div class="bandetete">
+            <strong>Work</strong>
+        </div>
         <div class="structure1">
             <table>
                 <tr>
                     <td>
-                        <img class="image1" src="C:\wamp64\www\Projet_Web\chaise\DSC1357.png" width="400"
-                            height="300" alt="Texte " title="Texte " />
+                        <div class="image1">
+                            <img src="./chaise/DSC1357.png" width="450" height="400" >
+                            <div class="image1text">
+                                <h4>Chaise</h4>
+                                <p>chaise design salon</p>
+                            </div>
+                        </div>
                     </td>
                     <td>
-                        <img class="image2" src="C:\wamp64\www\Projet_Web\photocouteaux\DSC_1344.jpg"
-                            width="300" height="300" alt="Texte " title="Texte ">
+                        <img class="image2" src="./photocouteaux/DSC_1344.jpg" width="300" height="300" alt="Texte " title="Texte ">
                     </td>
                     <td>
                         <img src="">
@@ -173,17 +194,19 @@ session_start(); // On démarre la session
         </div>
 
         <div class="parallax"></div>
-        <div class="bandetete"><strong>About</strong></div>
+        <div class="bandetete">
+            <strong>About</strong>
+        </div>
         <div class="structure1">
             <table>
                 <tr>
                     <td>
-                        <img class="image1" src="C:\wamp64\www\Projet_Web\chaise\DSC1357.png" width="400"
-                            height="300" alt="Texte " title="Texte " />
+                        <img class="image1" src="C:\wamp64\www\Projet_Web\chaise\DSC1357.png" width="400" height="300" alt="Texte " title="Texte "
+                        />
+
                     </td>
                     <td>
-                        <img class="image2" src="C:\wamp64\www\Projet_Web\photocouteaux\DSC_1344.jpg"
-                            width="300" height="300" alt="Texte " title="Texte ">
+                        <img class="image2" src="C:\wamp64\www\Projet_Web\photocouteaux\DSC_1344.jpg" width="300" height="300" alt="Texte " title="Texte ">
                     </td>
                     <td>
                         <img src="">
@@ -202,4 +225,5 @@ session_start(); // On démarre la session
         <a href="./minichat.php">chat</a>
         </div>
     </body>
+
     </html>

@@ -21,8 +21,8 @@ if($response == false) { // si utilisateur non trouvé dans la Bd
     die('Aucun utilisateur correspondant trouver');
 }
 // Insertion du message avec requête préparée
-$req = $bdd->prepare('INSERT INTO minichat (dateetheure,ID_proprietaire, pseudo, message) VALUES (CURRENT_TIMESTAMP(),?, ?, ?)');
-$req->execute(array($response['id'], $_POST['pseudo'], $_POST['message']));
+$req = $bdd->prepare('INSERT INTO minichat (dateetheure,ID_proprietaire, message) VALUES (CURRENT_TIMESTAMP(), ?, ?)');
+$req->execute(array($response['id'], $_POST['message']));
 
 // Redirection vers la page minichat
 header('Location: minichat.php');
