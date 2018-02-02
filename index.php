@@ -47,15 +47,13 @@ session_start(); // On démarre la session
             <strong>#Productible.rn #Design </strong>
         </div>
         <div>
+            
 
-
-            <img id="qrcode" src="http://www.unitag.io/qreator/generate?setting=%7B%22EYES%22%3A%7B%22EYE_TYPE%22%3A%22Simple%22%7D%2C%22E%22%3A%22M%22%2C%22BODY_TYPE%22%3A0%2C%22LAYOUT%22%3A%7B%22COLORBG%22%3A%22ffffff%22%2C%22COLOR1%22%3A%22000000%22%7D%7D&data=%7B%22TYPE%22%3A%22vcard%22%2C%22DATA%22%3A%7B%22FIRSTNAME%22%3A%22Robin%22%2C%22NAME%22%3A%22Navari%22%2C%22EMAIL%3BINTERNET%22%3A%22navari9203%40outlook.com%22%2C%22EMAIL%3BHOME%3BINTERNET%22%3A%22%22%2C%22TEL%3BCELL%22%3A%220681746320%22%2C%22TEL%3BWORK%22%3A%22%22%2C%22TEL%3BHOME%22%3A%22%22%2C%22TEL%3BHOME%3BFAX%22%3A%22%22%2C%22URL%22%3A%22%22%2C%22TITLE%22%3A%22%22%2C%22ORG%22%3A%22%22%2C%22ADR%22%3A%22%22%2C%22PC%22%3A%22%22%2C%22CITY%22%3A%22%22%2C%22COUNTRY%22%3A%22%22%2C%22NOTE%22%3A%22%22%7D%7D"
-                </a>
 
             <div class="parallax"></div>
             <div class="bandetetework">
                 <h2>
-                <strong>Work</strong>
+                    <strong>Work</strong>
                 </h2>
             </div>
             <div class="triangle-down"></div>
@@ -71,7 +69,7 @@ session_start(); // On démarre la session
                                 </div>
                             </div>
                         </td>
-                        <td> 
+                        <td>
                             <img class="image2" src="photocouteaux/DSC_1344.jpg" width="400" height="350" alt="Texte " title="Texte ">
                             <div class="image2text">
                                 <h4>couteau</h4>
@@ -96,9 +94,9 @@ session_start(); // On démarre la session
                         </td>
                     </tr>
                 </table>
-            </div>
+                </div>
                 <div class="parallax"></div>
-
+               
                 <div class="bandeteteGalerie">
                     <h2>
                         <strong>Galerie</strong>
@@ -297,54 +295,122 @@ function showSlides(n) {
 </script>
                 </div>
 
-            <div class="parallax"></div>
-            <div class="bandetete">
-                <strong>About</strong>
+                <div class="parallax"></div>
+                
+
+                <div class="bandeteteabout">
+                    <h2>
+                        <strong>About</strong>
+                    </h2>
+
+                </div>
+                <div class="triangle-down"></div>
+                <div class="structure1">
+
+
+                    <div class="card">
+                        <img src="https://www.scpraias.com.br/wp-content/uploads/2017/10/avatar-homem-3.jpg" alt="Robin" style="width:100%">
+                        <h1>Robin Navari</h1>
+                        <p class="title">Designer & Graphiste, Artiste</p>
+                        <p>Condé University</p>
+                        <div style="margin: 24px 0;">
+                            <a href="#">
+                                <i class="fa fa-dribbble"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </div>
+                        <p class="Boutoncontact">Contact</p>
+                    </div>
+                    <img id="qrcode" src="http://www.unitag.io/qreator/generate?setting=%7B%22EYES%22%3A%7B%22EYE_TYPE%22%3A%22Simple%22%7D%2C%22E%22%3A%22M%22%2C%22BODY_TYPE%22%3A0%2C%22LAYOUT%22%3A%7B%22COLORBG%22%3A%22ffffff%22%2C%22COLOR1%22%3A%22000000%22%7D%7D&data=%7B%22TYPE%22%3A%22vcard%22%2C%22DATA%22%3A%7B%22FIRSTNAME%22%3A%22Robin%22%2C%22NAME%22%3A%22Navari%22%2C%22EMAIL%3BINTERNET%22%3A%22navari9203%40outlook.com%22%2C%22EMAIL%3BHOME%3BINTERNET%22%3A%22%22%2C%22TEL%3BCELL%22%3A%220681746320%22%2C%22TEL%3BWORK%22%3A%22%22%2C%22TEL%3BHOME%22%3A%22%22%2C%22TEL%3BHOME%3BFAX%22%3A%22%22%2C%22URL%22%3A%22%22%2C%22TITLE%22%3A%22%22%2C%22ORG%22%3A%22%22%2C%22ADR%22%3A%22%22%2C%22PC%22%3A%22%22%2C%22CITY%22%3A%22%22%2C%22COUNTRY%22%3A%22%22%2C%22NOTE%22%3A%22%22%7D%7D"
+                </a>
+                </div>
+
+                <div class="parallax"></div>
+                <div class="bandeteteContact">
+                    <h2>
+                        <strong>Contact</strong>
+                    </h2>
+                </div>
+                <div class="triangle-down"></div>
+                <div class="structure1">
+
+                    <form action="minichat_post.php" method="post">
+                        <p>
+                            <table class="tablemessage">
+                                <tr>
+                                    <td>
+                                        <label for="pseudo">Pseudo</label> :
+                                    </td>
+                                </tr>
+                                <div class="espace"></div>
+                                <tr>
+                                    <td>
+                                        <input type="text" name="pseudo" id="pseudo" />
+                                    </td>
+                                </tr>
+                                <div class="espace"></div>
+                                <tr>
+                                    <td>
+                                        <label for="object">Objet</label> :</td>
+                                    <td>
+                                </tr>
+                                <div class="espace"></div>
+                                <tr>
+                                    <td>
+                                        <input type="text" name="object" id="object" />
+                                    </td>
+                                </tr>
+                                <div class="espace"></div>
+                                <tr>
+                                    <td>
+                                        <label for="message">Message</label> :
+                                    </td>
+                                </tr>
+                                <div class="espace"></div>
+                                <tr>
+                                    <td>
+                                        <textarea type="text" name="message" id="message" placeholder="Write something.." style="height:200px"></textarea>
+                                    </td>
+                                </tr>
+                                <div class="espace"></div>
+                                <tr>
+                                    <td>
+                                        <input type="submit" value="Envoyer" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </p>
+                    </form>
+
+                </div>
             </div>
-            <div class="triangle-down"></div>
-            <div class="structure1">
-                <table>
-                    <tr>
-                        <td>
-                            <img class="image1" src="C:\wamp64\www\Projet_Web\chaise\DSC1357.png" width="400" height="300" alt="Texte " title="Texte "
-                            />
+            <button onclick="topFunction()" id="boutontop">Top</button>
+            <script>
+                //Quand on descend de 20px on affiche le bouton 
+                window.onscroll = function () { scrollFunction() };
 
-                        </td>
-                        <td>
-                            <img class="image2" src="C:\wamp64\www\Projet_Web\photocouteaux\DSC_1344.jpg" width="300" height="300" alt="Texte " title="Texte ">
-                        </td>
-                        <td>
-                            <img src="">
-                        </td>
-                        <td>
-                            <img src="">
-                        </td>
-                        <td>
-                            <img src="">
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        <button onclick="topFunction()" id="boutontop">Top</button>
-        <script>
-//Quand on descend de 20px on affiche le bouton 
-window.onscroll = function() {scrollFunction()};
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        document.getElementById("boutontop").style.display = "block";
+                    } else {
+                        document.getElementById("boutontop").style.display = "none";
+                    }
+                }
 
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("boutontop").style.display = "block";
-    } else {
-        document.getElementById("boutontop").style.display = "none";
-    }
-}
-
-// Quand on clique su le bouton on remonte en haut de la page
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-</script>
+                // Quand on clique su le bouton on remonte en haut de la page
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+            </script>
     </body>
 
     </html>
