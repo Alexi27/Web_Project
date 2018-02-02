@@ -41,19 +41,22 @@ session_start(); // On démarre la session
             </div>
         </div>
 
-        <h1 id="nomtitre">BOOOOOOM</h1>
+        <h1 id="nomtitre">Robin NAVARI</h1>
 
-        <div class "leshastags">
-            <strong>#Productible.rn #Design #eko</strong>
+        <div class="leshastags">
+            <strong>#Productible.rn #Design </strong>
+        </div>
+        <div>
 
 
             <img id="qrcode" src="http://www.unitag.io/qreator/generate?setting=%7B%22EYES%22%3A%7B%22EYE_TYPE%22%3A%22Simple%22%7D%2C%22E%22%3A%22M%22%2C%22BODY_TYPE%22%3A0%2C%22LAYOUT%22%3A%7B%22COLORBG%22%3A%22ffffff%22%2C%22COLOR1%22%3A%22000000%22%7D%7D&data=%7B%22TYPE%22%3A%22vcard%22%2C%22DATA%22%3A%7B%22FIRSTNAME%22%3A%22Robin%22%2C%22NAME%22%3A%22Navari%22%2C%22EMAIL%3BINTERNET%22%3A%22navari9203%40outlook.com%22%2C%22EMAIL%3BHOME%3BINTERNET%22%3A%22%22%2C%22TEL%3BCELL%22%3A%220681746320%22%2C%22TEL%3BWORK%22%3A%22%22%2C%22TEL%3BHOME%22%3A%22%22%2C%22TEL%3BHOME%3BFAX%22%3A%22%22%2C%22URL%22%3A%22%22%2C%22TITLE%22%3A%22%22%2C%22ORG%22%3A%22%22%2C%22ADR%22%3A%22%22%2C%22PC%22%3A%22%22%2C%22CITY%22%3A%22%22%2C%22COUNTRY%22%3A%22%22%2C%22NOTE%22%3A%22%22%7D%7D"
                 </a>
 
-
             <div class="parallax"></div>
-            <div class="bandetete">
+            <div class="bandetetework">
+                <h2>
                 <strong>Work</strong>
+                </h2>
             </div>
             <div class="triangle-down"></div>
             <div class="structure1">
@@ -61,7 +64,7 @@ session_start(); // On démarre la session
                     <tr>
                         <td>
                             <div class="image1">
-                                <img src="./chaise/DSC1357.png" width="450" height="400 ">
+                                <img src="chaise/DSC1357.png" width="400" height="350 ">
                                 <div class="image1text">
                                     <h4>Chaise</h4>
                                     <p>chaise design salon</p>
@@ -69,21 +72,24 @@ session_start(); // On démarre la session
                             </div>
                         </td>
                         <td> 
-                            <img class="image2" src="./photocouteaux/DSC_1344.jpg" width="450" height="400" alt="Texte " title="Texte ">
+                            <img class="image2" src="photocouteaux/DSC_1344.jpg" width="400" height="350" alt="Texte " title="Texte ">
                             <div class="image2text">
                                 <h4>couteau</h4>
                                 <p>couteau design cuisine</p>
                             </div>
                         </td>
                         <td>
-                            <img src="./photomaquettechocolat/DSC_1351.JPG" width="450" height="400" alt="Texte " title="Texte ">
+                            <img src="photomaquettechocolat/DSC_1351.JPG" width="400" height="350" alt="Texte " title="Texte ">
                             <div class="image2text">
                                 <h4>Maquette Chocolat</h4>
                                 <p>maquette design Chocolat</p>
                             </div>
                         </td>
                         <td>
-                            <img src="">
+                            <img src="renderring/untitled.611.JPG" width="400" height="350" alt="Texte " title="Texte ">
+                            <div class="image2text">
+                                <h4>Maquette Chocolat</h4>
+                                <p>maquette design Chocolat</p>
                         </td>
                         <td>
                             <img src="">
