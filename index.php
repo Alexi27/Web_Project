@@ -97,6 +97,205 @@ session_start(); // On démarre la session
                     </tr>
                 </table>
             </div>
+                <div class="parallax"></div>
+
+                <div class="bandeteteGalerie">
+                    <h2>
+                        <strong>Galerie</strong>
+                    </h2>
+                </div>
+                <div class="triangle-down"></div>
+                <div class="structure1">
+                <div class="boxGalerie">
+
+<div class="mySlides fade">
+  <div class="numeroimage">1 / 3</div>
+  <img src="scanprojetparplanchesalamain/20171127121601-1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numeroimage">2 / 3</div>
+  <img src="scanprojetparplanchesalamain/20171127121850-1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numeroimage">3 / 3</div>
+  <img src="scanprojetparplanchesalamain/20171127121929-1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numeroimage">4 / 3</div>
+  <img src="scanprojetparplanchesalamain/20171127122015-1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numeroimage">5 / 3</div>
+  <img src="scanprojetparplanchesalamain/20171127122042-1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numeroimage">6 / 1</div>
+  <img src="scanprojetparplanchesalamain/20171201172757-1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numeroimage">7 / 3</div>
+  <img src="scanprojetparplanchesalamain/20171127122233-1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numeroimage">8 / 3</div>
+  <img src="scanprojetparplanchesalamain/20171127122303-1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numeroimage">9 / 3</div>
+  <img src="scanprojetparplanchesalamain/20171127122325-1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numeroimage">10 / 3</div>
+  <img src="scanprojetparplanchesalamain/20171127122346-1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numeroimage">11 / 3</div>
+  <img src="scanprojetparplanchesalamain/20171130100746-1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numeroimage">12 / 3</div>
+  <img src="scanprojetparplanchesalamain/20171130100810-1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numeroimage">13 / 3</div>
+  <img src="scanprojetparplanchesalamain/20171130100834-1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numeroimage">14 / 3</div>
+  <img src="scanprojetparplanchesalamain/20171201172553-1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numeroimage">15 / 3</div>
+  <img src="scanprojetparplanchesalamain/20171201172631-1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numeroimage">16 / 3</div>
+  <img src="scanprojetparplanchesalamain/20171201172655-1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numeroimage">17 / 3</div>
+  <img src="scanprojetparplanchesalamain/20171201172714-1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numeroimage">18 / 3</div>
+  <img src="scanprojetparplanchesalamain/20171201172732-1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div class="pointrepere">
+<div class="pointimg">
+    <div class="column">
+      <img class="demo cursor" src="scanprojetparplanchesalamain/20171127121601-1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="scanprojetparplanchesalamain/20171127121850-1.jpg" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="scanprojetparplanchesalamain/20171127121929-1.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="scanprojetparplanchesalamain/20171127122015-1.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="scanprojetparplanchesalamain/20171127122042-1.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="scanprojetparplanchesalamain/20171201172757-1.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="scanprojetparplanchesalamain/20171127122233-1.jpg" style="width:100%" onclick="currentSlide(7)" alt="Snowy Mountains">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="scanprojetparplanchesalamain/20171127122303-1.jpg" style="width:100%" onclick="currentSlide(8)" alt="Snowy Mountains">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="scanprojetparplanchesalamain/20171127122325-1.jpg" style="width:100%" onclick="currentSlide(9)" alt="Snowy Mountains">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="scanprojetparplanchesalamain/20171127122346-1.jpg" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="scanprojetparplanchesalamain/20171130100746-1.jpg" style="width:100%" onclick="currentSlide(11)" alt="Snowy Mountains">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="scanprojetparplanchesalamain/20171130100810-1.jpg" style="width:100%" onclick="currentSlide(12)" alt="Snowy Mountains">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="scanprojetparplanchesalamain/20171130100834-1.jpg" style="width:100%" onclick="currentSlide(13)" alt="Snowy Mountains">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="scanprojetparplanchesalamain/20171201172553-1.jpg" style="width:100%" onclick="currentSlide(14)" alt="Snowy Mountains">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="scanprojetparplanchesalamain/20171201172631-1.jpg" style="width:100%" onclick="currentSlide(15)" alt="Snowy Mountains">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="scanprojetparplanchesalamain/20171201172655-1.jpg" style="width:100%" onclick="currentSlide(16)" alt="Snowy Mountains">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="scanprojetparplanchesalamain/20171201172714-1.jpg" style="width:100%" onclick="currentSlide(17)" alt="Snowy Mountains">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="scanprojetparplanchesalamain/20171201172732-1.jpg" style="width:100%" onclick="currentSlide(17)" alt="Snowy Mountains">
+    </div>
+
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+                </div>
 
             <div class="parallax"></div>
             <div class="bandetete">
