@@ -20,7 +20,7 @@
             text-align: center;
            
         }
-        .bandetetework {
+        #bandetetework {
             position: relative;
             height: 35px;
             float: center;
@@ -30,7 +30,7 @@
             background-color: grey;
             font-size: 16px;
         }
-        .bandeteteGalerie {
+        #bandeteteGalerie {
             position: relative;
             height: 35px;
             float: center;
@@ -40,7 +40,7 @@
             background-color: grey;
             font-size: 16px;
         }
-        .bandeteteabout {
+        #bandeteteabout {
             position: relative;
             height: 35px;
             float: center;
@@ -50,7 +50,7 @@
             background-color: grey;
             font-size: 16px;
         }
-        .bandeteteContact{
+        #bandeteteContact{
             position: relative;
             height: 35px;
             float: center;
@@ -345,4 +345,30 @@ img {vertical-align: middle;}*/
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+/*definition des ancres pour naviguer entre les parties des pages*/
+.dot {
+    position: fixed;
+    z-index: 1;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 0 30px;
+    background-color: #bbb;
+    border-radius: 50%;
+
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  .tabledot {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 25px;
+    border-color: grey;
 }

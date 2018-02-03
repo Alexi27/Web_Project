@@ -45,13 +45,17 @@ session_start(); // On démarre la session
 
         <div class="leshastags">
             <strong>#Productible.rn #Design </strong>
-        </div>
+        </div><table class="tabledot"><tr><td>
+        <a href="#bandetetework" class="dot"></a></tr></tr></br><tr><td>
+        <a href="#bandeteteGalerie" class="dot"></a></tr></tr></br><tr><td>
+        <a href="#bandeteteabout" class="dot"></a></tr></tr></br><tr><td>
+        <a href="#bandeteteContact" class="dot"></a></tr></tr></br></table>
         <div>
             
 
 
             <div class="parallax"></div>
-            <div class="bandetetework">
+            <div id="bandetetework">
                 <h2>
                     <strong>Work</strong>
                 </h2>
@@ -97,7 +101,7 @@ session_start(); // On démarre la session
                 </div>
                 <div class="parallax"></div>
                
-                <div class="bandeteteGalerie">
+                <div id="bandeteteGalerie">
                     <h2>
                         <strong>Galerie</strong>
                     </h2>
@@ -298,7 +302,7 @@ function showSlides(n) {
                 <div class="parallax"></div>
                 
 
-                <div class="bandeteteabout">
+                <div id="bandeteteabout">
                     <h2>
                         <strong>About</strong>
                     </h2>
@@ -334,7 +338,7 @@ function showSlides(n) {
                 </div>
 
                 <div class="parallax"></div>
-                <div class="bandeteteContact">
+                <div id="bandeteteContact">
                     <h2>
                         <strong>Contact</strong>
                     </h2>
