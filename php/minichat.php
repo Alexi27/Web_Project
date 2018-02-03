@@ -7,7 +7,7 @@ session_start(); // On démarre la session
 
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="minichat.css">
+        <link rel="stylesheet" href="../css/minichat.css">
         <title>Mini-chat</title>
        
     </head>
