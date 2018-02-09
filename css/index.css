@@ -3,6 +3,11 @@
         body,
         html {
             height: 100%;
+            background-image:url(https://st2.depositphotos.com/3757793/11154/v/950/depositphotos_111543510-stock-illustration-memphis-line-seamless-pattern-colorful.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         #snackbar {
             visibility: hidden;
@@ -45,16 +50,15 @@
             from {bottom: 30px; opacity: 1;}
             to {bottom: 0; opacity: 0;}
         }
-        .parallax {
+        /*.parallax {
             position: absolute;
-            /*background-image: url('https://wallpaperscraft.com/image/inkwell_pen_ink_77039_2048x1152.jpg');*/
             height: 1000%;
             width:100%;
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            }
+            }*/
         .leshastags{
             position: relative;
             text-align: center;
@@ -160,7 +164,7 @@
             margin: auto;
             display: inline-block;
             width: 100%;
-            background-color: black;/* rgba(0, 0, 0, 0);*/
+            background-color: white;/* rgba(0, 0, 0, 1);*/
         }
         #qrcode{
             width: 40px;
@@ -411,4 +415,14 @@ img {vertical-align: middle;}*/
     border-collapse: separate;
     border-spacing: 25px;
     border-color: grey;
+}
+
+
+.tablemessage {
+    position: relative;
+    margin-left: 500px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
