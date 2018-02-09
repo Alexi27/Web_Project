@@ -428,10 +428,10 @@ function callsnackbar(txt) {
                     var err = <?php echo $_GET['err'];?>;
 
                     if(err == 1){
-                    callsnackbar('GOGOGO');
+                    callsnackbar('Vous êtes connecté !');
                     }
                     else if(err == 2){
-                    callsnackbar("222");
+                    callsnackbar("Vous avez été deconnecté !");
                     }
                     else if(err == 3){
                     callsnackbar("3333");
