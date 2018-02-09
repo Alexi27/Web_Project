@@ -39,6 +39,6 @@ if($response['password'] != $password) { // Si MDP faux
 $_SESSION['pseudo'] = $username;
 
 // Redirection vers la page minichat
-header('Location: index.php');
+header('Location: index.php?err=1');
 
 ?>

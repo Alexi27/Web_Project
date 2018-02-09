@@ -269,34 +269,7 @@ session_start(); // On démarre la session
   </div>
 </div>
 
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
                 </div>
 
                 <div class="parallax"></div>
@@ -397,8 +370,36 @@ function showSlides(n) {
                 </div>
             </div>
             <button onclick="topFunction()" id="boutontop">Top</button>
+            <div id="snackbar"><div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script>
-                //Quand on descend de 20px on affiche le bouton 
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+                    //Quand on descend de 20px on affiche le bouton 
                 window.onscroll = function () { scrollFunction() };
 
                 function scrollFunction() {
@@ -414,6 +415,29 @@ function showSlides(n) {
                     document.body.scrollTop = 0;
                     document.documentElement.scrollTop = 0;
                 }
+                
+function callsnackbar(txt) {
+    var x = document.getElementById("snackbar")
+    x.className = "show";
+    x.innerHTML = txt;
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+
+                $(document).ready(function(){
+                    
+                    var err = <?php echo $_GET['err'];?>;
+
+                    if(err == 1){
+                    callsnackbar('GOGOGO');
+                    }
+                    else if(err == 2){
+                    callsnackbar("222");
+                    }
+                    else if(err == 3){
+                    callsnackbar("3333");
+                    } 
+                    err = 0;
+                });
             </script>
     </body>
 
