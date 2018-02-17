@@ -373,70 +373,69 @@ session_start(); // On démarre la session
             <div id="snackbar"><div>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script>
-var slideIndex = 1;
-showSlides(slideIndex);
+                var slideIndex = 1;
+                showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                };
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                };
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-                    //Quand on descend de 20px on affiche le bouton 
-                window.onscroll = function () { scrollFunction() };
-
-                function scrollFunction() {
-                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                        document.getElementById("boutontop").style.display = "block";
-                    } else {
-                        document.getElementById("boutontop").style.display = "none";
+                function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) {slideIndex = 1}    
+                    if (n < 1) {slideIndex = slides.length}
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
                     }
-                }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " active";
+                };
 
-                // Quand on clique su le bouton on remonte en haut de la page
+                
                 function topFunction() {
                     document.body.scrollTop = 0;
                     document.documentElement.scrollTop = 0;
-                }
+                };
+
                 
-function callsnackbar(txt) {
-    var x = document.getElementById("snackbar")
-    x.className = "show";
-    x.innerHTML = txt;
-    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-}
+                function callsnackbar(txt) {
+                    var x = document.getElementById("snackbar")
+                    x.className = "show";
+                    x.innerHTML = txt;
+                    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+                };
 
-                $(document).ready(function(){
-                    
-                    var err = <?php echo $_GET['err'];?>;
-
-                    if(err == 1){
-                    callsnackbar('Vous êtes connecté !');
-                    }
-                    else if(err == 2){
-                    callsnackbar("Vous avez été deconnecté !");
-                    }
-                    else if(err == 3){
-                    callsnackbar("3333");
+                $(document).ready(function(){                  
+                    <?php
+                    if(!isset($_GET['err'])){
+                          $err = 0;
                     } 
-                    err = 0;
+                    else if($_GET['err'] == 1){
+                        ?>callsnackbar('Vous êtes connecté !'); <?php
+                    }
+                    else if($_GET['err'] == 2){
+                        ?>callsnackbar("Vous avez été deconnecté !"); <?php
+                    }
+                    else $err = 0;
+                  ?>
+
+                    //Quand on descend de 20px on affiche le bouton 
+                    window.onscroll = function () {
+                        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                            document.getElementById("boutontop").style.display = "block";
+                        } else {
+                            document.getElementById("boutontop").style.display = "none";
+                        }
+                    };
                 });
             </script>
     </body>
