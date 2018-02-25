@@ -20,13 +20,19 @@ form {
     float: middle;
     text-align: center;
 }
-
+.liste{
+    position: absolute;
+    margin-right: 50%;
+    border-color: black;
+    background-color: rgb(40, 40, 95);
+    width: 40%;
+}
 .messageancien {
     position: absolute;
-    margin-left: 10%;
+    margin-left: 50%;
     border-color: black;
     background-color: blue;
-    width: 90%;
+    width: 50%;
 }
 input, textarea{
     width: 30%;
@@ -38,6 +44,8 @@ input, textarea{
     display: table;
     clear: both;
 }
+
+*{
 box-sizing: border-box;
 }
 
@@ -71,4 +79,49 @@ box-sizing: border-box;
 
 #myUL li a:hover:not(.header) {
   background-color: #eee;
+}
+
+
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.time-left {
+    float: left;
+    color: #999;
 }
