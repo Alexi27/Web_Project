@@ -420,14 +420,15 @@ session_start(); // On démarre la session
                           $err = 0;
                     } 
                     else if($_GET['err'] == 1){
-                        ?>callsnackbar('Vous êtes connecté !'); <?php
+                        ?>callsnackbar('Vous êtes connecté !');<?php
                     }
                     else if($_GET['err'] == 2){
-                        ?>callsnackbar("Vous avez été deconnecté !"); <?php
+                        ?>callsnackbar("Vous avez été deconnecté !"); <?php 
                     }
                     else $err = 0;
-                  ?>
-
+                  
+                    ?>
+                     });
                     //Quand on descend de 20px on affiche le bouton 
                     window.onscroll = function () {
                         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -436,7 +437,7 @@ session_start(); // On démarre la session
                             document.getElementById("boutontop").style.display = "none";
                         }
                     };
-                });
+               
             </script>
     </body>
 
