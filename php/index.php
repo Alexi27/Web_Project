@@ -7,7 +7,7 @@ session_start(); // On démarre la session
 
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="../css/index.css">
         <title>Premiers test</title>
 
     </head>
@@ -31,7 +31,7 @@ session_start(); // On démarre la session
                         else 
                         { 
                             echo '<a href="./pagelog.php">connection </a>';// sinon on lui propose de se connecter
-                            echo'<a href="./formulaire.html">inscription</a>';//ou de s'inscrire
+                            echo'<a href="./formulaire.php">inscription</a>';//ou de s'inscrire
                         }
                     ?>
                 </div>
@@ -51,7 +51,7 @@ session_start(); // On démarre la session
         <a href="#bandeteteabout" class="dot"></a></tr></tr></br><tr><td>
         <a href="#bandeteteContact" class="dot"></a></tr></tr></br></table>
         <div>
-            
+
 
 
             <div class="parallax"></div>
@@ -66,7 +66,7 @@ session_start(); // On démarre la session
                     <tr>
                         <td>
                             <div class="image1">
-                                <img src="chaise/DSC1357.png" width="400" height="350 ">
+                                <img src="../images/chaise/DSC1357.png" width="400" height="350 ">
                                 <div class="image1text">
                                     <h4>Chaise</h4>
                                     <p>chaise design salon</p>
@@ -74,21 +74,21 @@ session_start(); // On démarre la session
                             </div>
                         </td>
                         <td>
-                            <img class="image2" src="photocouteaux/DSC_1344.jpg" width="400" height="350" alt="Texte " title="Texte ">
+                            <img class="image2" src="../images/photocouteaux/DSC_1344.jpg" width="400" height="350" alt="Texte " title="Texte ">
                             <div class="image2text">
                                 <h4>couteau</h4>
                                 <p>couteau design cuisine</p>
                             </div>
                         </td>
                         <td>
-                            <img src="photomaquettechocolat/DSC_1351.JPG" width="400" height="350" alt="Texte " title="Texte ">
+                            <img src="../images/photomaquettechocolat/DSC_1351.JPG" width="400" height="350" alt="Texte " title="Texte ">
                             <div class="image2text">
                                 <h4>Maquette Chocolat</h4>
                                 <p>maquette design Chocolat</p>
                             </div>
                         </td>
                         <td>
-                            <img src="renderring/untitled.611.JPG" width="400" height="350" alt="Texte " title="Texte ">
+                            <img src="../images/renderring/untitled.611.JPG" width="400" height="350" alt="Texte " title="Texte ">
                             <div class="image2text">
                                 <h4>Maquette Chocolat</h4>
                                 <p>maquette design Chocolat</p>
@@ -112,92 +112,92 @@ session_start(); // On démarre la session
 
 <div class="mySlides fade">
   <div class="numeroimage">1 / 3</div>
-  <img src="scanprojetparplanchesalamain/20171127121601-1.jpg" style="width:100%">
+  <img src="../images/scanprojetparplanchesalamain/20171127121601-1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
   <div class="numeroimage">2 / 3</div>
-  <img src="scanprojetparplanchesalamain/20171127121850-1.jpg" style="width:100%">
+  <img src="../images/scanprojetparplanchesalamain/20171127121850-1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
   <div class="numeroimage">3 / 3</div>
-  <img src="scanprojetparplanchesalamain/20171127121929-1.jpg" style="width:100%">
+  <img src="../images/scanprojetparplanchesalamain/20171127121929-1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
   <div class="numeroimage">4 / 3</div>
-  <img src="scanprojetparplanchesalamain/20171127122015-1.jpg" style="width:100%">
+  <img src="../images/scanprojetparplanchesalamain/20171127122015-1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
   <div class="numeroimage">5 / 3</div>
-  <img src="scanprojetparplanchesalamain/20171127122042-1.jpg" style="width:100%">
+  <img src="../images/scanprojetparplanchesalamain/20171127122042-1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
   <div class="numeroimage">6 / 1</div>
-  <img src="scanprojetparplanchesalamain/20171201172757-1.jpg" style="width:100%">
+  <img src="../images/scanprojetparplanchesalamain/20171201172757-1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
   <div class="numeroimage">7 / 3</div>
-  <img src="scanprojetparplanchesalamain/20171127122233-1.jpg" style="width:100%">
+  <img src="../images/scanprojetparplanchesalamain/20171127122233-1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
   <div class="numeroimage">8 / 3</div>
-  <img src="scanprojetparplanchesalamain/20171127122303-1.jpg" style="width:100%">
+  <img src="../images/scanprojetparplanchesalamain/20171127122303-1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
   <div class="numeroimage">9 / 3</div>
-  <img src="scanprojetparplanchesalamain/20171127122325-1.jpg" style="width:100%">
+  <img src="../images/scanprojetparplanchesalamain/20171127122325-1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
   <div class="numeroimage">10 / 3</div>
-  <img src="scanprojetparplanchesalamain/20171127122346-1.jpg" style="width:100%">
+  <img src="../images/scanprojetparplanchesalamain/20171127122346-1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
   <div class="numeroimage">11 / 3</div>
-  <img src="scanprojetparplanchesalamain/20171130100746-1.jpg" style="width:100%">
+  <img src="../images/scanprojetparplanchesalamain/20171130100746-1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
   <div class="numeroimage">12 / 3</div>
-  <img src="scanprojetparplanchesalamain/20171130100810-1.jpg" style="width:100%">
+  <img src="../images/scanprojetparplanchesalamain/20171130100810-1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
   <div class="numeroimage">13 / 3</div>
-  <img src="scanprojetparplanchesalamain/20171130100834-1.jpg" style="width:100%">
+  <img src="../images/scanprojetparplanchesalamain/20171130100834-1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
   <div class="numeroimage">14 / 3</div>
-  <img src="scanprojetparplanchesalamain/20171201172553-1.jpg" style="width:100%">
+  <img src="../images/scanprojetparplanchesalamain/20171201172553-1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
   <div class="numeroimage">15 / 3</div>
-  <img src="scanprojetparplanchesalamain/20171201172631-1.jpg" style="width:100%">
+  <img src="../images/scanprojetparplanchesalamain/20171201172631-1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
   <div class="numeroimage">16 / 3</div>
-  <img src="scanprojetparplanchesalamain/20171201172655-1.jpg" style="width:100%">
+  <img src="../images/scanprojetparplanchesalamain/20171201172655-1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
   <div class="numeroimage">17 / 3</div>
-  <img src="scanprojetparplanchesalamain/20171201172714-1.jpg" style="width:100%">
+  <img src="../images/scanprojetparplanchesalamain/20171201172714-1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
   <div class="numeroimage">18 / 3</div>
-  <img src="scanprojetparplanchesalamain/20171201172732-1.jpg" style="width:100%">
+  <img src="../images/scanprojetparplanchesalamain/20171201172732-1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 
@@ -212,91 +212,64 @@ session_start(); // On démarre la session
 <div class="pointrepere">
 <div class="pointimg">
     <div class="column">
-      <img class="demo cursor" src="scanprojetparplanchesalamain/20171127121601-1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+      <img class="demo cursor" src="../images/scanprojetparplanchesalamain/20171127121601-1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
     </div>
     <div class="column">
-      <img class="demo cursor" src="scanprojetparplanchesalamain/20171127121850-1.jpg" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+      <img class="demo cursor" src="../images/scanprojetparplanchesalamain/20171127121850-1.jpg" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
     </div>
     <div class="column">
-      <img class="demo cursor" src="scanprojetparplanchesalamain/20171127121929-1.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      <img class="demo cursor" src="../images/scanprojetparplanchesalamain/20171127121929-1.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
     </div>
     <div class="column">
-      <img class="demo cursor" src="scanprojetparplanchesalamain/20171127122015-1.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      <img class="demo cursor" src="../images/scanprojetparplanchesalamain/20171127122015-1.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
     </div>
     <div class="column">
-      <img class="demo cursor" src="scanprojetparplanchesalamain/20171127122042-1.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+      <img class="demo cursor" src="../images/scanprojetparplanchesalamain/20171127122042-1.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
     </div>    
     <div class="column">
-      <img class="demo cursor" src="scanprojetparplanchesalamain/20171201172757-1.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+      <img class="demo cursor" src="../images/scanprojetparplanchesalamain/20171201172757-1.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
     </div>
     <div class="column">
-      <img class="demo cursor" src="scanprojetparplanchesalamain/20171127122233-1.jpg" style="width:100%" onclick="currentSlide(7)" alt="Snowy Mountains">
+      <img class="demo cursor" src="../images/scanprojetparplanchesalamain/20171127122233-1.jpg" style="width:100%" onclick="currentSlide(7)" alt="Snowy Mountains">
     </div>
     <div class="column">
-      <img class="demo cursor" src="scanprojetparplanchesalamain/20171127122303-1.jpg" style="width:100%" onclick="currentSlide(8)" alt="Snowy Mountains">
+      <img class="demo cursor" src="../images/scanprojetparplanchesalamain/20171127122303-1.jpg" style="width:100%" onclick="currentSlide(8)" alt="Snowy Mountains">
     </div>
     <div class="column">
-      <img class="demo cursor" src="scanprojetparplanchesalamain/20171127122325-1.jpg" style="width:100%" onclick="currentSlide(9)" alt="Snowy Mountains">
+      <img class="demo cursor" src="../images/scanprojetparplanchesalamain/20171127122325-1.jpg" style="width:100%" onclick="currentSlide(9)" alt="Snowy Mountains">
     </div>
     <div class="column">
-      <img class="demo cursor" src="scanprojetparplanchesalamain/20171127122346-1.jpg" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+      <img class="demo cursor" src="../images/scanprojetparplanchesalamain/20171127122346-1.jpg" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
     </div>
     <div class="column">
-      <img class="demo cursor" src="scanprojetparplanchesalamain/20171130100746-1.jpg" style="width:100%" onclick="currentSlide(11)" alt="Snowy Mountains">
+      <img class="demo cursor" src="../images/scanprojetparplanchesalamain/20171130100746-1.jpg" style="width:100%" onclick="currentSlide(11)" alt="Snowy Mountains">
     </div>
     <div class="column">
-      <img class="demo cursor" src="scanprojetparplanchesalamain/20171130100810-1.jpg" style="width:100%" onclick="currentSlide(12)" alt="Snowy Mountains">
+      <img class="demo cursor" src="../images/scanprojetparplanchesalamain/20171130100810-1.jpg" style="width:100%" onclick="currentSlide(12)" alt="Snowy Mountains">
     </div>
     <div class="column">
-      <img class="demo cursor" src="scanprojetparplanchesalamain/20171130100834-1.jpg" style="width:100%" onclick="currentSlide(13)" alt="Snowy Mountains">
+      <img class="demo cursor" src="../images/scanprojetparplanchesalamain/20171130100834-1.jpg" style="width:100%" onclick="currentSlide(13)" alt="Snowy Mountains">
     </div>
     <div class="column">
-      <img class="demo cursor" src="scanprojetparplanchesalamain/20171201172553-1.jpg" style="width:100%" onclick="currentSlide(14)" alt="Snowy Mountains">
+      <img class="demo cursor" src="../images/scanprojetparplanchesalamain/20171201172553-1.jpg" style="width:100%" onclick="currentSlide(14)" alt="Snowy Mountains">
     </div>
     <div class="column">
-      <img class="demo cursor" src="scanprojetparplanchesalamain/20171201172631-1.jpg" style="width:100%" onclick="currentSlide(15)" alt="Snowy Mountains">
+      <img class="demo cursor" src="../images/scanprojetparplanchesalamain/20171201172631-1.jpg" style="width:100%" onclick="currentSlide(15)" alt="Snowy Mountains">
     </div>
     <div class="column">
-      <img class="demo cursor" src="scanprojetparplanchesalamain/20171201172655-1.jpg" style="width:100%" onclick="currentSlide(16)" alt="Snowy Mountains">
+      <img class="demo cursor" src="../images/scanprojetparplanchesalamain/20171201172655-1.jpg" style="width:100%" onclick="currentSlide(16)" alt="Snowy Mountains">
     </div>
     <div class="column">
-      <img class="demo cursor" src="scanprojetparplanchesalamain/20171201172714-1.jpg" style="width:100%" onclick="currentSlide(17)" alt="Snowy Mountains">
+      <img class="demo cursor" src="../images/scanprojetparplanchesalamain/20171201172714-1.jpg" style="width:100%" onclick="currentSlide(17)" alt="Snowy Mountains">
     </div>
     <div class="column">
-      <img class="demo cursor" src="scanprojetparplanchesalamain/20171201172732-1.jpg" style="width:100%" onclick="currentSlide(17)" alt="Snowy Mountains">
+      <img class="demo cursor" src="../images/scanprojetparplanchesalamain/20171201172732-1.jpg" style="width:100%" onclick="currentSlide(17)" alt="Snowy Mountains">
     </div>
 
   </div>
 </div>
 
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
                 </div>
 
                 <div class="parallax"></div>
@@ -357,7 +330,7 @@ function showSlides(n) {
                                 <div class="espace"></div>
                                 <tr>
                                     <td>
-                                        <input type="text" name="pseudo" id="pseudo" />
+                                        <input type="text" name="pseudo" id="pseudo" style="width:400px" />
                                     </td>
                                 </tr>
                                 <div class="espace"></div>
@@ -369,7 +342,7 @@ function showSlides(n) {
                                 <div class="espace"></div>
                                 <tr>
                                     <td>
-                                        <input type="text" name="object" id="object" />
+                                        <input type="text" name="object" id="object" style="width:400px" />
                                     </td>
                                 </tr>
                                 <div class="espace"></div>
@@ -381,7 +354,7 @@ function showSlides(n) {
                                 <div class="espace"></div>
                                 <tr>
                                     <td>
-                                        <textarea type="text" name="message" id="message" placeholder="Write something.." style="height:200px"></textarea>
+                                        <textarea type="text" name="message" id="message" placeholder="Write something.." style="height:200px;width:400px"></textarea>
                                     </td>
                                 </tr>
                                 <div class="espace"></div>
@@ -397,23 +370,74 @@ function showSlides(n) {
                 </div>
             </div>
             <button onclick="topFunction()" id="boutontop">Top</button>
+            <div id="snackbar"><div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script>
-                //Quand on descend de 20px on affiche le bouton 
-                window.onscroll = function () { scrollFunction() };
+                var slideIndex = 1;
+                showSlides(slideIndex);
 
-                function scrollFunction() {
-                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                        document.getElementById("boutontop").style.display = "block";
-                    } else {
-                        document.getElementById("boutontop").style.display = "none";
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                };
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                };
+
+                function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) {slideIndex = 1}    
+                    if (n < 1) {slideIndex = slides.length}
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
                     }
-                }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " active";
+                };
 
-                // Quand on clique su le bouton on remonte en haut de la page
+                
                 function topFunction() {
                     document.body.scrollTop = 0;
                     document.documentElement.scrollTop = 0;
-                }
+                };
+
+                
+                function callsnackbar(txt) {
+                    var x = document.getElementById("snackbar")
+                    x.className = "show";
+                    x.innerHTML = txt;
+                    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+                };
+
+                $(document).ready(function(){                  
+                    <?php
+                    if(!isset($_GET['err'])){
+                          $err = 0;
+                    } 
+                    else if($_GET['err'] == 1){
+                        ?>callsnackbar('Vous êtes connecté !');<?php
+                    }
+                    else if($_GET['err'] == 2){
+                        ?>callsnackbar("Vous avez été deconnecté !"); <?php 
+                    }
+                    else $err = 0;
+                  
+                    ?>
+                     });
+                    //Quand on descend de 20px on affiche le bouton 
+                    window.onscroll = function () {
+                        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                            document.getElementById("boutontop").style.display = "block";
+                        } else {
+                            document.getElementById("boutontop").style.display = "none";
+                        }
+                    };
+               
             </script>
     </body>
 
