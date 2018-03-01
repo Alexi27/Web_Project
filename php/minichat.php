@@ -24,11 +24,19 @@ session_start(); // On démarre la session
                 <?php
                     while ($donnees = $reponse->fetch())
                     {
-                        echo '<li>' . '<a href="#">'  . htmlspecialchars($donnees['pseudo']) . '</a>'.'</li>';
+                        echo '<li>' . '<a onclick="laBonneConv()">'  . htmlspecialchars($donnees['pseudo']) . '</a>'.'</li>';
+                       /* echo '<li>' . '<a onclick="laBonneConv()">'  . htmlspecialchars($donnees['pseudo']) . '</a>'.'</li>';*/
                     }
                 ?>
             </ul>
         </div>    
+        <script>
+            function laBonneConv(){
+                
+                header('Location: index.php');
+
+            }
+            </script>
             <script>
                     function myFunction() {
                         var input, filter, ul, li, a, i;
@@ -51,7 +59,8 @@ session_start(); // On démarre la session
 
                 <?php
                 // Récupération des 10 derniers messages
-                $reponse = $bdd->query('SELECT dateetheure, pseudo, message FROM minichat ORDER BY ID DESC LIMIT 0, 10');
+                $pseudo = "alfred";
+                $reponse = $bdd->query('SELECT dateetheure, pseudo, message FROM minichat');
 
                 // Affichage de chaque message (toutes les données sont protégées par htmlspecialchars)
                 while ($donnees = $reponse->fetch())
@@ -68,7 +77,7 @@ session_start(); // On démarre la session
                         </div>
                         <?php
                     }
-                    else {?>
+                    else if (htmlspecialchars($donnees['pseudo']) == $pseudo){?>
                         <div class="container darker">
                             
                             <p>
