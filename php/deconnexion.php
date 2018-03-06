@@ -1,5 +1,5 @@
 <?php
-session_start(); // On detruit la session la session
+session_start(); // On ouvre la session la session
 
 session_destroy(); // On detruit la session la session
 ?>

@@ -2,7 +2,7 @@
 session_start(); // On démarre la session 
 ?>
 <!DOCTYPE html>
-<! Connexion à la base de données
+<!-- Connexion à la base de données-->
 <?php
 try
 {

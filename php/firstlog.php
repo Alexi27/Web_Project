@@ -21,7 +21,7 @@ echo 'Information bien enregistré!';
             pseudo :
         </td>
         <td>
-            <input class="pseudo" type="text" name="pseudo" value=<?php echo $_POST['pseudo'];?>> <! auto remplissage avec la valeur du formulaire>
+            <input class="pseudo" type="text" name="pseudo" value=<?php echo $_POST['pseudo'];?>> <!-- auto remplissage avec la valeur du formulaire-->
             <br>
         </td>
     </tr>
@@ -30,7 +30,7 @@ echo 'Information bien enregistré!';
             Mot de passe :
         </td>
         <td>
-            <input type="password" name="password" value=<?php echo $_POST['password'];?>> <! auto remplissage avec la valeur du formulaire >
+            <input type="password" name="password" value=<?php echo $_POST['password'];?>> <!-- auto remplissage avec la valeur du formulaire-->
         </td>
     </tr>
 </table>

@@ -18,7 +18,7 @@ session_start(); // On démarre la session
             <?php
                 // Connexion à la base de données
                     $bdd = new PDO('mysql:host=localhost;dbname=projetweb;charset=utf8', 'Alexi27', 'Alexi2427');
-                // Récupération des inscri dans la dB
+                // Récupération des inscris dans la dB
                 $reponse = $bdd->query('SELECT pseudo FROM inscription ORDER BY ID');
             ?>
             <ul id="myUL">
@@ -35,21 +35,19 @@ session_start(); // On démarre la session
                             }
                         }
                         </script>
-                         <li><a>
-                        <form name="myForm" action="minichat.php"
-                        method="post">
+                         <li><a> <!--on renvoie sur la meme page le but etant d'avoir juste le pseudo-->
+                        <form name="myForm" action="minichat.php"  
+                        method="post"> <!-- la balise forme permet de renvoyer le pseudo lorsqu'on clique dessus pour pouvoir ensuite afficher les bon message-->
                         <input name="destinataire" type="submit" value="<?php echo htmlspecialchars($donnees['pseudo'])?> ">
-                        </form> </a> </li> <?php 
+                        </form> </a> </li> <?php // on ecris dans chaque imput les pseudo de la base de donné
 
-                        /*echo '<li>' . '<a onclick="' laBonneConv() '">'  . htmlspecialchars($donnees['pseudo']) . '</a>'.'</li>';
-                       /* echo '<li>' . '<a onclick="laBonneConv()">'  . htmlspecialchars($donnees['pseudo']) . '</a>'.'</li>';*/
                     }
                 ?>
             </ul>
         </div>   
         
             <script>
-                    function myFunction() {
+                    function myFunction() { // fonction qui permet de faire un recherche dans le cas ou on a pas envie de chercher le pseudo
                         var input, filter, ul, li, a, i;
                         input = document.getElementById("myInput");
                         filter = input.value.toUpperCase();
@@ -69,15 +67,15 @@ session_start(); // On démarre la session
                         <div class="messageancien">
 
                 <?php
-                // Récupération des 10 derniers message
+                // Récupération des message
                 $reponse = $bdd->query('SELECT dateetheure, pseudo, message FROM minichat');
-                $destinataire = $_POST['destinataire'];
+                $destinataire = $_POST['destinataire'];//on recupère le pseudo sur lequel on a cliquer
                 
                 // Affichage de chaque message (toutes les données sont protégées par htmlspecialchars)
                 while ($donnees = $reponse->fetch())
                 {
-                    if (htmlspecialchars($donnees['pseudo']) == $_SESSION['pseudo'])?>{
-                        <div class="container">    
+                    if (htmlspecialchars($donnees['pseudo']) == $_SESSION['pseudo'])?>{ <!-- si le pseudo est celui du la session on ecris a gauche sinon a droite -->
+                                           <div class="container">    
                             <p>
                                 <?php echo htmlspecialchars($donnees['message']) ?> 
                             </p>
@@ -88,7 +86,7 @@ session_start(); // On démarre la session
                         }<?php
                         
                     
-                     if (htmlspecialchars($donnees['pseudo']) == $destinataire)?>{
+                     if (htmlspecialchars($donnees['pseudo']) == $destinataire)?>{ <!-- du coup on ecris a droite puisque ce n'est pas celui de la session-->
                         <div class="container darker">     
                             <p>
                                 <?php echo htmlspecialchars($donnees['message']) ?> 
