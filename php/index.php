@@ -1,22 +1,21 @@
 <?php
 session_start(); // On démarre la session
 ?>
-<!-- Page principal du site sur laquelle on arrive lors de l'ouverture-->
 
     <!DOCTYPE html>
     <html>
 
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="../css/index.css"> <!-- indication du chemin du fichier css   Les .. servent a revenir en arrière car la page css n'est pas dasn le meme fichier -->
+        <link rel="stylesheet" href="../css/index.css">
         <title>Premiers test</title>
 
     </head>
 
     <body>
-        <div class="dropdown" style="float:right;">  <!-- ceci est le bouton qui permet de changer de page --> 
+        <div class="dropdown" style="float:right;">
             <button class="dropbtn">
-                <img src="http://www.icone-png.com/png/53/53000.png" width="30" height="30"> <!-- icone user du bouton-->
+                <img src="http://www.icone-png.com/png/53/53000.png" width="30" height="30">
             </button>
             <div class="dropdown-content">
 
@@ -27,8 +26,6 @@ session_start(); // On démarre la session
                             if(strlen($_SESSION['pseudo'] == 0))// si oui on check alors qu'il est pas egal a 0
                             {
                                  echo $_SESSION['pseudo'];// et alors on ecris le pseudo de l'utilisateur
-                                 echo '<a href="./deconnexion.php">deconnexion</a>';
-                                 echo '<a href="./minichat.php">minichat</a>'; // on peut acceder au minichat que si on est connecté
                             } 
                         }
                         else 
@@ -39,24 +36,25 @@ session_start(); // On démarre la session
                     ?>
                 </div>
 
-                
+                <a href="./deconnexion.php">deconnexion</a>
+                <a href="./minichat.php">minichat</a>
             </div>
         </div>
 
         <h1 id="nomtitre">Robin NAVARI</h1>
 
         <div class="leshastags">
-            <strong>#Productible.rn #Design </strong> <!-- les ancres pour se diriger plus vite sur le site-->
+            <strong>#Productible.rn #Design </strong>
         </div><table class="tabledot"><tr><td>
         <a href="#bandetetework" class="dot"></a></tr></tr></br><tr><td>
-        <a href="#bandeteteGalerie" class="dot"></a></tr></tr></br><tr><td> <!-- avec href=# , on redirige vers un id-->
+        <a href="#bandeteteGalerie" class="dot"></a></tr></tr></br><tr><td>
         <a href="#bandeteteabout" class="dot"></a></tr></tr></br><tr><td>
         <a href="#bandeteteContact" class="dot"></a></tr></tr></br></table>
         <div>
 
 
 
-            <div class="parallax"></div> <!-- parralaxe permet de mettre un ecart entre les diffenrentes parties -->
+            <div class="parallax"></div>
             <div id="bandetetework">
                 <h2>
                     <strong>Work</strong>
@@ -67,7 +65,7 @@ session_start(); // On démarre la session
                 <table>
                     <tr>
                         <td>
-                            <div class="image1"> <!-- declaration des images du premier bandeau--> 
+                            <div class="image1">
                                 <img src="../images/chaise/DSC1357.png" width="400" height="350 ">
                                 <div class="image1text">
                                     <h4>Chaise</h4>
@@ -103,7 +101,7 @@ session_start(); // On démarre la session
                 </div>
                 <div class="parallax"></div>
                
-                <div id="bandeteteGalerie"> <!-- galerie permetant d'avoir plusieur images et de les faire defiler avec les fleches -->
+                <div id="bandeteteGalerie">
                     <h2>
                         <strong>Galerie</strong>
                     </h2>
@@ -113,7 +111,7 @@ session_start(); // On démarre la session
                 <div class="boxGalerie">
 
 <div class="mySlides fade">
-  <div class="numeroimage">1 / 3</div> 
+  <div class="numeroimage">1 / 3</div>
   <img src="../images/scanprojetparplanchesalamain/20171127121601-1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
@@ -205,14 +203,14 @@ session_start(); // On démarre la session
 
 
 
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <!-- les deux fleches-->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
 </div>
 <br>
 
-<div class="pointrepere"> <!-- ici on a a nouveau toute les images et si on clique sur une on y va directement sans passer par les autres-->
-<div class="pointimg"> <!-- elles ont toute un numero de slide pour la fonction script-->
+<div class="pointrepere">
+<div class="pointimg">
     <div class="column">
       <img class="demo cursor" src="../images/scanprojetparplanchesalamain/20171127121601-1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
     </div>
@@ -277,7 +275,7 @@ session_start(); // On démarre la session
                 <div class="parallax"></div>
                 
 
-                <div id="bandeteteabout"> <!-- encore un bandeau-->
+                <div id="bandeteteabout">
                     <h2>
                         <strong>About</strong>
                     </h2>
@@ -290,14 +288,14 @@ session_start(); // On démarre la session
                     <div class="card">
                         <img src="https://www.scpraias.com.br/wp-content/uploads/2017/10/avatar-homem-3.jpg" alt="Robin" style="width:100%">
                         <h1>Robin Navari</h1>
-                        <p class="title">Designer & Artiste</p>
+                        <p class="title">Designer & Graphiste, Artiste</p>
                         <p>Condé University</p>
                         <div style="margin: 24px 0;">
                             <a href="#">
                                 <i class="fa fa-dribbble"></i>
                             </a>
                             <a href="#">
-                                <i class="fa fa-twitter"></i> <!-- les fa fa sont les logos des different réseau -->
+                                <i class="fa fa-twitter"></i>
                             </a>
                             <a href="#">
                                 <i class="fa fa-linkedin"></i>
@@ -310,7 +308,7 @@ session_start(); // On démarre la session
                     </div>
                     <img id="qrcode" src="http://www.unitag.io/qreator/generate?setting=%7B%22EYES%22%3A%7B%22EYE_TYPE%22%3A%22Simple%22%7D%2C%22E%22%3A%22M%22%2C%22BODY_TYPE%22%3A0%2C%22LAYOUT%22%3A%7B%22COLORBG%22%3A%22ffffff%22%2C%22COLOR1%22%3A%22000000%22%7D%7D&data=%7B%22TYPE%22%3A%22vcard%22%2C%22DATA%22%3A%7B%22FIRSTNAME%22%3A%22Robin%22%2C%22NAME%22%3A%22Navari%22%2C%22EMAIL%3BINTERNET%22%3A%22navari9203%40outlook.com%22%2C%22EMAIL%3BHOME%3BINTERNET%22%3A%22%22%2C%22TEL%3BCELL%22%3A%220681746320%22%2C%22TEL%3BWORK%22%3A%22%22%2C%22TEL%3BHOME%22%3A%22%22%2C%22TEL%3BHOME%3BFAX%22%3A%22%22%2C%22URL%22%3A%22%22%2C%22TITLE%22%3A%22%22%2C%22ORG%22%3A%22%22%2C%22ADR%22%3A%22%22%2C%22PC%22%3A%22%22%2C%22CITY%22%3A%22%22%2C%22COUNTRY%22%3A%22%22%2C%22NOTE%22%3A%22%22%7D%7D"
                 </a>
-                </div> <!-- le grand src au dessus est les QR code qui permet de l'ajouter dans ces contacte-->
+                </div>
 
                 <div class="parallax"></div>
                 <div id="bandeteteContact">
@@ -321,7 +319,7 @@ session_start(); // On démarre la session
                 <div class="triangle-down"></div>
                 <div class="structure1">
 
-                    <form action="minichat_post.php" method="post"> <!-- ici on peut envoyer un message que l'on retrouvera dans le mini chat-->
+                    <form action="minichat_post.php" method="post">
                         <p>
                             <table class="tablemessage">
                                 <tr>
@@ -372,21 +370,21 @@ session_start(); // On démarre la session
                 </div>
             </div>
             <button onclick="topFunction()" id="boutontop">Top</button>
-            <div id="snackbar"></div>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- init qui permet de pouvoir utiliser du jquery-- >
+            <div id="snackbar"><div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script>
                 var slideIndex = 1;
-                showSlides(slideIndex); /*ici on a les slide vu precedement*/
+                showSlides(slideIndex);
 
-                function plusSlides(n) { /* voila a quoi servé de mettre un numéro de slide a chaque image*/
+                function plusSlides(n) {
                     showSlides(slideIndex += n);
                 };
 
                 function currentSlide(n) {
-                    showSlides(slideIndex = n); /* permet de dire quel image on veux voir*/
+                    showSlides(slideIndex = n);
                 };
 
-                function showSlides(n) { /* la fonction showslide qui permet d'afficher la bonne image*/ 
+                function showSlides(n) {
                     var i;
                     var slides = document.getElementsByClassName("mySlides");
                     var dots = document.getElementsByClassName("dot");
@@ -403,20 +401,20 @@ session_start(); // On démarre la session
                 };
 
                 
-                function topFunction() { /* fonction pour renvoyé en haut de la page*/
+                function topFunction() {
                     document.body.scrollTop = 0;
                     document.documentElement.scrollTop = 0;
                 };
 
                 
-                function callsnackbar(txt) {   /* fonction qui affiche le petit message si on viens de se co ou se deconnecter*/
+                function callsnackbar(txt) {
                     var x = document.getElementById("snackbar")
                     x.className = "show";
                     x.innerHTML = txt;
-                    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);  /* ic  on decide du temps que restera le message*/
+                    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
                 };
 
-                $(document).ready(function(){                  /* fonction qui permet de definir l'erreur. Grace a get ou renvoie soit 1 soit 2 et cela se traduit par connter ou deconnecter*/
+                $(document).ready(function(){                  
                     <?php
                     if(!isset($_GET['err'])){
                           $err = 0;
@@ -432,7 +430,7 @@ session_start(); // On démarre la session
                     ?>
                      });
                     //Quand on descend de 20px on affiche le bouton 
-                    window.onscroll = function () { /* fonction qui permet de definir a partir de quand on affiche le bouton pour remonter*/
+                    window.onscroll = function () {
                         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                             document.getElementById("boutontop").style.display = "block";
                         } else {

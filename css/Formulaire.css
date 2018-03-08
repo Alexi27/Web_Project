@@ -1,32 +1,30 @@
-
-form
-{
-    text-align:center;
-    
+form {
+    text-align: center;
 }
 
-#formulaire{
+#formulaire {
     font-size: small;
     width: 30%;
-    height: 70%;
-    background: rgba(104, 97, 19, 0.719);
+    height: 50%;
+    background: rgba(255, 255, 255, 0.506);
     text-align: center;
-
 }
 
-#log{
+#log {
     font-size: small;
     text-align: center;
     width: 30%;
-    height: 40%;
-    background: rgba(172, 159, 21, 0.753);  
-    
+    height: 30%;
+    background: rgba(255, 255, 255, 0.5);
 }
-p{
-    font-size:small;
-} 
-body{
-    text-align:center; 
-    background-attachment:scroll;
-    }
-    
+
+p {
+    font-size: small;
+}
+
+body {
+    margin-left: 40%;
+    text-align: center;
+    float: center;
+    background-attachment: scroll;
+}
